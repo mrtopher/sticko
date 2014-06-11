@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Sticko</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/apple-touch-icon-114x114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/images/apple-touch-icon-57x57-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon-precomposed.png" />
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+</head>
+<body class="home-template">
+    <div id="main-content" role="main" class="pure-g-r">
+        <aside id="main-sidebar" class="pure-u-1-2" style="background-image:url(assets/images/sidebar_bg.jpg)">
+            <section class="sidebar-data-holder">
+                <div class="spinner" role="spinner"><div class="spinner-icon"></div></div>
+                <nav class="main-nav">
+                    <button class="nav-control"><i class="icon-hamburguer"></i></button>
+                    <a href="/" title="Go to Home">Home</a>
+                    <a href="/about" title="Go to About">About</a>
+                    <a href="#">Another one</a>
+                    <a href="#">One more, why not?</a>
+                    <a href="#">Last one, i promise :)</a>
+                </nav>
+                <div class="logo"><a href="/" title="Back to home">My Blog</a></div>                
+
+                <div class="author">
+                    <figure class="author-avatar"><img class="avatar-image" src="assets/images/avatar.jpg" alt=""></figure>
+                    <header class="author-name">Chris Monnat</header>
+                    <p class="author-bio">Bio goes here...</p>
+                    <p><small>Alexandria, VA</small></p>
+                </div>
+
+                <menu class="social-media-share">
+                    <a href="#" class="icon-mail" rel="external" title="My Mail"></a>
+                    <a href="#" class="icon-twitter" rel="external" title="My Twitter"></a>
+                    <a href="#" class="icon-github" rel="external" title="My GitHub"></a>
+                    <a href="#" class="icon-linkedin" rel="external" title="My LinkedIn"></a>
+                    <a href="#" class="icon-feed" rel="external" title="My RSS Feed"></a>
+<!--                     <a href="#" class="icon-facebook" rel="external" title="My Facebook"></a>
+                    <a href="#" class="icon-googleplus" rel="external" title="My Google+"></a>
+                    <a href="#" class="icon-pinterest" rel="external" title="My Pinterest"></a>
+                    <a href="#" class="icon-vimeo" rel="external" title="My Vimeo"></a>
+                    <a href="#" class="icon-flickr" rel="external" title="My Flickr"></a>
+                    <a href="#" class="icon-github" rel="external" title="My GitHub"></a>
+                    <a href="#" class="icon-dribbble" rel="external" title="My Dribbble"></a>
+                    <a href="#" class="icon-stumbleupon" rel="external" title="My Stumbleupon"></a>
+                    <a href="#" class="icon-lastfm" rel="external" title="My Lastfm"></a>
+                    <a href="#" class="icon-rdio" rel="external" title="My Rdio"></a>
+                    <a href="#" class="icon-youtube" rel="external" title="My YouTube"></a>
+ -->            </menu>            
+
+                <footer id="main-footer"><p>Free <a href="http://ghost.org" title="Try Ghost" rel="external">Ghost</a> theme designed and coded by <a href="https://twitter.com/damianmuti" title="Go to @damianmuti's Twitter" rel="external">@damianmuti</a></p></footer>
+            </section>
+        </aside>
+        <section id="main" class="pure-u-1-2">
+            <article class="post">
+                <header class="post-header">
+                    <h1><a href="/welcome-to-ghost/" title="Read &quot;Welcome to Ghost&quot;">Welcome to Ghost</a></h1>
+                    
+                    <!-- Post meta -->
+                    <menu class="post-meta">
+                        <div class="post-meta-data"><i class="icon-datetime"></i> 4 months ago</div>
+                        <!--<div class="post-meta-data"><i class="icon-shortlink"></i> <a href="#">BIT.LY/1ES1TCF</a></div>-->
+                        <div class="post-meta-data"><i class="icon-tags"></i> Getting Started</div>
+                    </menu>
+                </header>
+                <div class="post-content">
+                    <p>You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;your blog URL&gt;/ghost/. When you arrive, you can select this post from a list&hellip;</p>
+                </div>
+                <a href="/welcome-to-ghost/" class="button button-default button-keep-reading" title="Read &quot;Welcome to Ghost&quot;">Keep reading &rarr;</a>
+            </article>
+
+            <nav class="pagination" role="pagination">
+                <a class="newer-posts" href="{{page_url prev}}">&larr; Newer posts</a>
+                <a class="older-posts" href="{{page_url next}}">Older posts &rarr;</a>
+            </nav>
+        </section>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="assets/js/plugins/jquery.fitvids.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
